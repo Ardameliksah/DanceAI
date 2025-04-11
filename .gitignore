@@ -1,0 +1,26 @@
+# Virtual env
+venv/
+
+# YOLO / DeepSORT / OpenPose models
+*.pt
+*.pkl
+*.pb
+*.onnx
+*.caffemodel
+*.prototxt
+*.weights
+models/
+model_data/
+openpose/models/
+openCVmodels/
+
+# Output videos or data
+*.mp4
+*.avi
+*.csv
+output_videos/
+
+# Jupyter and system junk
+.ipynb_checkpoints/
+.DS_Store
+__pycache__/
